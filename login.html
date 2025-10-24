@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+     <div class="logincard">
+         <div class="logo">
+             <img src="./logo.jpg" alt="srcset" >
+          </div>
+         
+         <h2 style="text-align: center;">User Login</h2>
+         
+
+
+          <form action="login.php" method="POST"> 
+            <div style="margin-bottom: 20px; text-align: center;">
+                <label for="login_type" style="font-weight: bold;">Login Type: </label>
+                <select name="login_type" id="login_type" style="padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                    <option value="student">Student</option>
+                    <option value="admin">Administrator</option>
+                </select>
+            </div>
+            <label for="username">username</label>
+            <input type="text" name="username" placeholder="username">
+            <br>
+            <label for="password">password</label>
+            <input type="password" name="password" placeholder="password">
+            <br>
+            <button type="submit">login</button>
+     <div>
+
+          </form>
+
+          <!-- 在这里添加注册链接 -->
+          <div style="text-align: center; margin-top: 20px;">
+              Don't have an account? <a href="register.php">Register here</a>
+          </div>
+
+     </div>
+</body>
+</html>
+

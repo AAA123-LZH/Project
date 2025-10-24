@@ -1,0 +1,43 @@
+body{
+    height:100vh;
+    background-image:url('./loginbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}   
+
+
+
+
+.logincard{
+    width: fit-content;
+    padding:20px 40px;
+    margin: 250px auto ;
+    border: 1px solid rgb(0, 213, 255) ;
+    box-shadow: 2px 2px 10px 1px rgb(243, 235, 235);
+    border-radius: 7px;  
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 2px 2px 10px 1px rgb(253, 251, 251);
+    
+}
+
+
+.logincard .logo{
+    margin: 0  auto;
+    width: 85px;
+    height: 85px;
+    border: auto  solid rgb(232, 123, 166);
+    transform:translateY(-60px);
+    border-radius:50%;
+    background-color: rgb(254, 252, 252);
+
+    box-shadow: 2px 2px 10px 1px rgb(253, 251, 251);
+
+}
+
+
+.logincard .logo img{ 
+    width:100%;
+    
+}

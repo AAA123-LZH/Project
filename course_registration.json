@@ -1,0 +1,47 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"course_registration"},
+{"type":"table","name":"admins","database":"course_registration","data":
+[
+{"admin_id":"1","username":"admin","password":"123","full_name":"Admin","email":"admin@setu.com"},
+{"admin_id":"2","username":"user","password":"123","full_name":"User","email":"user@setu.com"}
+]
+}
+,{"type":"table","name":"courses","database":"course_registration","data":
+[
+{"course_id":"123","course_code":"CS101","course_name":"Computer Basics","description":"Introduction to basic computer concepts.","credits":"3","lecturer":"Mike"},
+{"course_id":"234","course_code":"MAT201","course_name":"Math","description":"Covers basic calculus topics.","credits":"4","lecturer":"Tom"},
+{"course_id":"345","course_code":"ENG150","course_name":"English Writing","description":"Focuses on writing and reading skills.","credits":"2","lecturer":"Leon"},
+{"course_id":"777","course_code":"CHI123","course_name":"Chinese","description":"this is a beautiful language","credits":"3","lecturer":"Wang"},
+{"course_id":"778","course_code":"tu202","course_name":"math","description":"this is analysis class","credits":"3","lecturer":"tom"},
+{"course_id":"779","course_code":"ts111","course_name":"sport","description":"help students  healthy","credits":"3","lecturer":"Aim"},
+{"course_id":"780","course_code":"ts112","course_name":"sports","description":"help students  healthy","credits":"3","lecturer":"Aim"},
+{"course_id":"781","course_code":"ts113","course_name":"sportss","description":"help students  healthy","credits":"3","lecturer":"Aim"},
+{"course_id":"782","course_code":"cw111","course_name":"maths","description":"zxjhlkds","credits":"3","lecturer":"Danny"},
+{"course_id":"783","course_code":"C757","course_name":"Python","description":"Code","credits":"3","lecturer":"roc"}
+]
+}
+,{"type":"table","name":"registrations","database":"course_registration","data":
+[
+{"registration_id":"52","student_id":"1","course_id":"777","status":"pending","date_registered":"2025-10-17 21:50:15"},
+{"registration_id":"53","student_id":"1","course_id":"345","status":"pending","date_registered":"2025-10-18 16:04:47"},
+{"registration_id":"59","student_id":"1","course_id":"123","status":"approved","date_registered":"2025-10-20 13:07:15"},
+{"registration_id":"60","student_id":"1","course_id":"234","status":"approved","date_registered":"2025-10-20 13:07:15"},
+{"registration_id":"67","student_id":"2","course_id":"123","status":"approved","date_registered":"2025-10-20 13:13:40"},
+{"registration_id":"68","student_id":"2","course_id":"345","status":"approved","date_registered":"2025-10-20 13:13:40"},
+{"registration_id":"69","student_id":"3","course_id":"234","status":"approved","date_registered":"2025-10-20 13:13:40"},
+{"registration_id":"70","student_id":"3","course_id":"345","status":"approved","date_registered":"2025-10-20 13:13:40"},
+{"registration_id":"71","student_id":"4","course_id":"777","status":"approved","date_registered":"2025-10-20 13:13:40"},
+{"registration_id":"72","student_id":"1","course_id":"778","status":"approved","date_registered":"2025-10-20 13:19:14"}
+]
+}
+,{"type":"table","name":"students","database":"course_registration","data":
+[
+{"student_id":"1","username":"123456","password":"123456","full_name":"[linzhaohua]","email":"[123456.@qq.com]","program":"[math]"},
+{"student_id":"2","username":"alice","password":"123456","full_name":"Alice Brown","email":"alice@setu.edu","program":"Computer Science"},
+{"student_id":"3","username":"bob","password":"123456","full_name":"Bob Johnson","email":"bob@setu.edu","program":"Business Administration"},
+{"student_id":"4","username":"tom","password":"123456","full_name":"Tom Davis","email":"tom@setu.edu","program":"Electrical Engineering"},
+{"student_id":"6","username":"6","password":"111111","full_name":"rddddddd","email":"wwwwww@gmail.com","program":null}
+]
+}
+]
