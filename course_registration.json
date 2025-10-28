@@ -32,7 +32,8 @@
 {"registration_id":"69","student_id":"3","course_id":"234","status":"approved","date_registered":"2025-10-20 13:13:40"},
 {"registration_id":"70","student_id":"3","course_id":"345","status":"approved","date_registered":"2025-10-20 13:13:40"},
 {"registration_id":"71","student_id":"4","course_id":"777","status":"approved","date_registered":"2025-10-20 13:13:40"},
-{"registration_id":"72","student_id":"1","course_id":"778","status":"approved","date_registered":"2025-10-20 13:19:14"}
+{"registration_id":"72","student_id":"1","course_id":"778","status":"approved","date_registered":"2025-10-20 13:19:14"},
+{"registration_id":"74","student_id":"7","course_id":"123","status":"pending","date_registered":"2025-10-28 15:53:16"}
 ]
 }
 ,{"type":"table","name":"students","database":"course_registration","data":
@@ -41,7 +42,8 @@
 {"student_id":"2","username":"alice","password":"123456","full_name":"Alice Brown","email":"alice@setu.edu","program":"Computer Science"},
 {"student_id":"3","username":"bob","password":"123456","full_name":"Bob Johnson","email":"bob@setu.edu","program":"Business Administration"},
 {"student_id":"4","username":"tom","password":"123456","full_name":"Tom Davis","email":"tom@setu.edu","program":"Electrical Engineering"},
-{"student_id":"6","username":"6","password":"111111","full_name":"rddddddd","email":"wwwwww@gmail.com","program":null}
+{"student_id":"6","username":"6","password":"111111","full_name":"rddddddd","email":"wwwwww@gmail.com","program":null},
+{"student_id":"7","username":"username","password":"password","full_name":"zhangsan","email":"zhangsan@setu.com","program":"big data"}
 ]
 }
 ]

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 25, 2025 at 12:52 AM
+-- Generation Time: Oct 28, 2025 at 05:08 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -102,7 +102,8 @@ INSERT INTO `registrations` (`registration_id`, `student_id`, `course_id`, `stat
 (69, 3, 234, 'approved', '2025-10-20 13:13:40'),
 (70, 3, 345, 'approved', '2025-10-20 13:13:40'),
 (71, 4, 777, 'approved', '2025-10-20 13:13:40'),
-(72, 1, 778, 'approved', '2025-10-20 13:19:14');
+(72, 1, 778, 'approved', '2025-10-20 13:19:14'),
+(74, 7, 123, 'pending', '2025-10-28 15:53:16');
 
 -- --------------------------------------------------------
 
@@ -128,7 +129,8 @@ INSERT INTO `students` (`student_id`, `username`, `password`, `full_name`, `emai
 (2, 'alice', '123456', 'Alice Brown', 'alice@setu.edu', 'Computer Science'),
 (3, 'bob', '123456', 'Bob Johnson', 'bob@setu.edu', 'Business Administration'),
 (4, 'tom', '123456', 'Tom Davis', 'tom@setu.edu', 'Electrical Engineering'),
-(6, '6', '111111', 'rddddddd', 'wwwwww@gmail.com', NULL);
+(6, '6', '111111', 'rddddddd', 'wwwwww@gmail.com', NULL),
+(7, 'username', 'password', 'zhangsan', 'zhangsan@setu.com', 'big data');
 
 --
 -- Indexes for dumped tables
@@ -184,13 +186,13 @@ ALTER TABLE `courses`
 -- AUTO_INCREMENT for table `registrations`
 --
 ALTER TABLE `registrations`
-  MODIFY `registration_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
+  MODIFY `registration_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
 
 --
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
-  MODIFY `student_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `student_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Constraints for dumped tables
